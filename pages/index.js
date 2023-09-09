@@ -175,14 +175,14 @@ export default function Home({ dir }) {
                             {/* <img style=border-radius: "100%" src="./assets/profile.jpeg" alt="mockup"/> */}
                         </div>
                         <div className="mr-auto place-self-center lg:col-span-7">
-                            <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-gray-900 dark:text-white">Hi ! <Emoji emoji="waving-hand" /> <br></br> my name is Alejandro, an enthusiast Programmer / Coder / Web Developer.</h1>
-                            <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">I have participated and concluded the training at Oracle ONE Project and Alura Latam. ALUMNI 2022.</p>
+                            <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-gray-900 dark:text-white"><FormattedMessage id="page.home.title.heroa"/><Emoji emoji="waving-hand" /><br></br><FormattedMessage id="page.home.title.herob"/></h1>
+                            <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"><FormattedMessage id="page.home.title.heroc"/></p>
                             <a href="#" className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-slate-700 rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:text-white dark:focus:ring-slate-900">
-                                Learn more
+                                <FormattedMessage id="page.home.button1.hero"/>
                                 <svg className="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                             </a>
                             <a href="#about" className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-blue-700 rounded-lg hover:bg-blue-700 hover:text-white focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-blue-700 dark:focus:ring-gray-800">
-                                About me
+                                <FormattedMessage id="page.home.button2.hero"/>
                             </a> 
                         </div>            
                     </div>
@@ -213,19 +213,19 @@ export default function Home({ dir }) {
         <section className="bg-white dark:bg-gray-900 antialiased" id="about">
                     <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
                         <figure className="max-w-screen-md mx-auto">
-                            <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-white">About me</h2>
+                            <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-white"><FormattedMessage id="page.home.title.aboutme"/></h2>
                             <svg className="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/>
                             </svg> 
                             <blockquote>
-                                <p className="text-2xl mb-8 font-normal text-gray-900 dark:text-white">"I have extensive experience as a Systems Administrator | IT Manager | Help Desk Support | Troubleshooting | Hardware Corrective and Preventive Maintenance | Data Backup and Recovery | Web Administrator."</p>
-                                <p className="text-2xl mb-8 font-normal text-gray-900 dark:text-white">"I have participated and concluded the training at Oracle ONE (Oracle Next Education) Program and Alura LATAM | ALUMIN 2022, Front End Jr - Studied: HTML5 | CSS3 | JavaScript | JAVA  | Python | Flutter  | PHP."</p>
-                                <p className="text-2xl mb-8 font-normal text-gray-900 dark:text-white">"I'm looking to get more experience as a developer with React.js frameworks like Next.js, Python Django + React.js, and mobile development like Flutter, among others."</p>
+                                <p className="text-2xl mb-8 font-normal text-gray-900 dark:text-white">"<FormattedMessage id="page.home.text1.aboutme"/>"</p>
+                                <p className="text-2xl mb-8 font-normal text-gray-900 dark:text-white">"<FormattedMessage id="page.home.text2.aboutme"/>"</p>
+                                <p className="text-2xl mb-8 font-normal text-gray-900 dark:text-white">"<FormattedMessage id="page.home.text3.aboutme"/>"</p>
                             </blockquote>
                             <figcaption className="flex items-center justify-center mt-6 space-x-3">
                                 {/* <!-- <img class="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture" --> */}
                                 <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-                                    <div className="pr-3 font-medium text-gray-900 dark:text-white">Alejandro Ayala Schmitt.</div>
+                                    {/* <div className="pr-3 font-medium text-gray-900 dark:text-white"></div> */}
                                     {/* <!-- <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">CEO at Google</div> --> */}
                                 </div>
                             </figcaption>
@@ -237,7 +237,7 @@ export default function Home({ dir }) {
                     <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
                       <div className="max-w-2xl mx-auto text-center">
                         <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-white">
-                          Skills
+                          <FormattedMessage id="page.home.title.skills"/>
                         </h2>
                         {/* <p className="mt-4 text-base font-normal text-gray-500 sm:text-xl dark:text-gray-400">
                           Crafted with skill and care to help our clients grow their business!
@@ -403,7 +403,7 @@ export default function Home({ dir }) {
                     <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
                       <div className="max-w-2xl mx-auto text-center">
                         <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-white">
-                          Education
+                          <FormattedMessage id="page.home.title.edu"/>
                         </h2>
                         {/* <p className="mt-4 text-base font-normal text-gray-500 sm:text-xl dark:text-gray-400">
                           Crafted with skill and care to help our clients grow their business!
@@ -419,13 +419,13 @@ export default function Home({ dir }) {
                           />
                           <span                            
                             className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
-                            Career.
+                              <FormattedMessage id="page.home.text1.edu"/>
                           </span>
                           <h3 className="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
-                            Information Technology
+                            <FormattedMessage id="page.home.text2.edu"/>
                           </h3>
                           <p className="text-lg font-normal text-gray-500 dark:text-gray-400">
-                            2001 - TECNM at Chihuahua, Mexico
+                            <FormattedMessage id="page.home.text3.edu"/>
                           </p>
                           {/* <a href="#" title=""
                             className="text-white bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
@@ -449,13 +449,13 @@ export default function Home({ dir }) {
                           />
                           <span
                             className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
-                            Certification.
+                              <FormattedMessage id="page.home.text1.edub"/>
                           </span>
                           <h3 className="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
-                            CompTIA A+ Tech Training 
+                            <FormattedMessage id="page.home.text2.edub"/>
                           </h3>
                           <p className="text-lg font-normal text-gray-500 dark:text-gray-400">
-                            2008 - TTC at Salt Lake City, Utah
+                            <FormattedMessage id="page.home.text3.edub"/>
                           </p>
                           {/* <a href="#" title=""
                             className="text-white bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
@@ -479,13 +479,13 @@ export default function Home({ dir }) {
                           />
                           <span
                             className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
-                            Bootcamp.
+                              <FormattedMessage id="page.home.text1.educ"/>
                           </span>
                           <h3 className="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
-                            Oracle ONE (Oracle Next Education) Program + Alura LATAM Training
+                            <FormattedMessage id="page.home.text2.educ"/>
                           </h3>
                           <p className="text-lg font-normal text-gray-500 dark:text-gray-400">
-                            ALUMNI 2022 - Online Training Course at ALURA
+                            <FormattedMessage id="page.home.text3.educ"/>
                           </p>
                           {/* <a href="#" title=""
                             className="text-white bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
@@ -507,7 +507,7 @@ export default function Home({ dir }) {
                     <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
                       <div className="max-w-2xl mx-auto text-center">
                         <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-white">
-                          Projects
+                          <FormattedMessage id="page.home.title.projects"/>
                         </h2>
                         {/* <p className="mt-4 text-base font-normal text-gray-500 sm:text-xl dark:text-gray-400">
                           Crafted with skill and care to help our clients grow their business!
@@ -524,17 +524,17 @@ export default function Home({ dir }) {
                             />
                           <span
                             className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
-                            My Portfolio Website.
+                              <FormattedMessage id="page.home.text1.projects"/>
                           </span>
                           <h3 className="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
-                            Official website
+                            <FormattedMessage id="page.home.text2.projects"/>
                           </h3>
                           <p className="text-lg font-normal text-gray-500 dark:text-gray-400">
-                            This SPA (Single Page App) tech is made with: Next.js, TailwindCSS, FontAwesome Icons, javascript. Features a Dark Mode, Language Switcher, Schedulle a WEB Meeting Button powered by Calendly, in addition you can download my CV in Spanish and Resume in English both in PDF. The pourpose of this is Showing Up my skills. Deployed at Vercel.
+                            <FormattedMessage id="page.home.text3.projects"/>
                           </p>
                           <a href="/" title=""
                             className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-blue-700 rounded-lg hover:bg-blue-700 hover:text-white focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-blue-700 dark:focus:ring-gray-800" role="button">
-                            You are currently viewing at...
+                              <FormattedMessage id="page.home.text4.projects"/>
                             <svg aria-hidden="true" className="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
                               fill="currentColor">
                               <path fillRule="evenodd"
@@ -554,17 +554,17 @@ export default function Home({ dir }) {
                             />
                           <span
                             className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
-                            Gayatricoach.com
+                              <FormattedMessage id="page.home.text1.projects1"/>
                           </span>
                           <h3 className="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
-                            Teraphist Website, work in progress...
+                            <FormattedMessage id="page.home.text2.projects2"/>
                           </h3>
                           <p className="text-lg font-normal text-gray-500 dark:text-gray-400">
-                            This website is a work in progress, since the customer (my sister) is not yet desided what she really wants, so it's in stand by at the moment, This SPA (Single Page App) tech is made with: Next.js, TailwindCSS, FontAwesome Icons, javascript. Will features a Logo, Dark Mode, Language Switcher, Schedulle a WEB Meeting Button powered by Calendly, in addition will have differnt sections such as Services, About, FAQs, Newsletter sign up, Testimonials, may be a Blog. The pourpose of this is a Customers Website to share and offer her services. Deployed at Vercel.
+                            <FormattedMessage id="page.home.text3.projects3"/>
                           </p>
                           <a href="https://gayatricoach.com/" target="_blank"
                             className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-blue-700 rounded-lg hover:bg-blue-700 hover:text-white focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-blue-700 dark:focus:ring-gray-800">
-                            View case study
+                              <FormattedMessage id="page.home.text4.projects4"/>
                             <svg aria-hidden="true" className="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
                               fill="currentColor">
                               <path fillRule="evenodd"
@@ -574,7 +574,7 @@ export default function Home({ dir }) {
                           </a>
                         </div>
                   
-                        <div className="space-y-4">
+                        {/* <div className="space-y-4">
                           <Image 
                               src="/portfolio.png"
                               width={400}
@@ -602,7 +602,7 @@ export default function Home({ dir }) {
                                 clipRule="evenodd" />
                             </svg>
                           </a>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
         </section>
@@ -611,7 +611,7 @@ export default function Home({ dir }) {
                     <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
                       <div className="max-w-2xl mx-auto text-center">
                         <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-white">
-                          Follow me on...
+                          <FormattedMessage id="page.home.title.follow"/>
                         </h2>
                         {/* <p className="mt-4 text-base font-normal text-gray-500 sm:text-xl dark:text-gray-400">
                           Crafted with skill and care to help our clients grow their business!
@@ -708,7 +708,7 @@ export default function Home({ dir }) {
                           <div className="-mt-1 font-sans text-sm font-semibold">Mac App Store</div>
                       </div>
                   </a> */}
-                  <a type="button" href="https://calendly.com/schmittmx/30min" target="_blank"  className="px-6 py-3.5 text-base font-medium text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 rounded-lg text-center dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Schedule a WEB meeting                                                            
+                  <a type="button" href="https://calendly.com/schmittmx/30min" target="_blank"  className="px-6 py-3.5 text-base font-medium text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 rounded-lg text-center dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"><FormattedMessage id="page.home.button.follow"/>                                                            
                       {/* <svg className="mr-3 w-7 h-7" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="google-play" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"></path></svg>
                       <div className="text-left">
                           <div className="mb-1 text-xs">Get in on</div>
@@ -723,7 +723,7 @@ export default function Home({ dir }) {
             <footer className="footer footer-center w-full p-4 bg-white text-gray-800 dark:bg-gray-900 dark:text-white">
               <div className="text-center">
                 <p>
-                  Copyright © 2023 - Made with  <FontAwesomeIcon icon={faHeart} className="fas fa-heart" style={{ color: "red", fontSize: 16 }}/> by
+                  <FormattedMessage id="page.home.footer.copyright"/> © 2023 - <FormattedMessage id="page.home.footer.copyright2"/>  <FontAwesomeIcon icon={faHeart} className="fas fa-heart" style={{ color: "red", fontSize: 16 }}/> <FormattedMessage id="page.home.footer.copyright3"/>
                   {/* <i style="color: red" className="fa-solid fa-heart"> </i> */}
                     <a className="font-semibold" href="mailto:alex.ayalas@gmail.com"> Alejandro Ayala</a>
                 </p>
