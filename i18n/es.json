@@ -35,7 +35,7 @@
     "page.home.text4.projects": "Tu lo estás mirando ahora",
     "page.home.text1.projects1": "Gayatricoach.com",
     "page.home.text2.projects2": "Sitio para Terapeuta, sitio en proceso...",
-    "page.home.text3.projects3": "Este sitio web es un trabajo en progreso, ya que el cliente (mi hermana) aún no ha decidido lo que realmente quiere, por lo que está en stand by en este momento. Éste sitio SPA (Single Page App) ó aplicación de única página, está hecho con tecnología: Next.js, TailwindCSS, FontAwesome Icons, Javascript. Tendrá un logotipo, modo oscuro, selector de idioma, programar un botón de reunión web, con tecnología de Calendly. Además tendrá diferentes secciones como Servicios, Acerca de, Preguntas frecuentes, Suscripción al boletín, Testimonios, y podría tener un Blog. El propósito de este es un sitio web para sus clientes, para compartir y ofrecer sus servicios. Implementado en Vercel.",
+    "page.home.text3.projects3": "Este sitio web es un trabajo en progreso, lo que aún no está terminado es la sección de preguntas frecuentes y también el boletín. El cliente tiene su base en Florida, EE. UU. Esta tecnología SPA (aplicación de página única) está hecha con: Next.js, TailwindCSS, FontAwesome Icons, javascript Tiene un logotipo, modo oscuro, selector de idioma, widget para programar reuniones web impulsado por Cal.com. Además, tiene diferentes secciones como Servicios, Acerca de, Preguntas frecuentes, Hablemos, Suscripción al boletín. Testimonios. El propósito de este es un sitio web para clientes para compartir y ofrecer sus servicios implementado en Vercel.",
     "page.home.text4.projects4": "Vea el sitio",
     "page.home.title.follow": "Sígueme en...",
     "page.home.button.follow": "Agenda una consulta GRATIS en línea",

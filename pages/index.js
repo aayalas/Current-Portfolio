@@ -650,7 +650,7 @@ export default function Home({ dir }) {
                   </a>
                 </div>
 
-                {/* <div className="space-y-4">
+                <div className="space-y-4">
                             <Image 
                               src="/gayatricoach.png"
                               width={400}
@@ -678,7 +678,7 @@ export default function Home({ dir }) {
                                 clipRule="evenodd" />
                             </svg>
                           </a>
-                        </div> */}
+                        </div>
 
                 {/* <div className="space-y-4">
                           <Image 
