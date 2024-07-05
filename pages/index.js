@@ -795,7 +795,7 @@ export default function Home({ dir }) {
 
                 <div className="space-y-4">
                   <a
-                    href="https://instagram.com/alexayalaschmitt"
+                    href="https://www.instagram.com/disvolvi_com"
                     target="_blank"
                   >
                     <FontAwesomeIcon
